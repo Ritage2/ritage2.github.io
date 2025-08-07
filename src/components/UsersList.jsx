@@ -16,6 +16,7 @@ const UserList = () => {
                 <li key={user.id}>
                     <Link to={`/users/${user.id}`}>{user.name}</Link> 
                 </li>
+                
             ))}
         </ul>
     );
