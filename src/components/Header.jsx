@@ -10,6 +10,11 @@ const Header = () => {
     navigate("/users");
   };
 
+  const handleTodoClick = () => {
+    alert("Navigating to Todo page...");
+    navigate("/todo");
+  };
+
   return (
     <nav className="custom-navbar">
       <div className="navbar-links">
@@ -18,6 +23,7 @@ const Header = () => {
         <button className="users-btn" onClick={handleUsersClick}>
           Go to Users
         </button>
+        
       </div>
     </nav>
   );

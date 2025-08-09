@@ -5,6 +5,9 @@ import Home from "./pages/home";
 import Users from "./pages/users";
 import About from "./pages/about";
 import UserDetails from "./pages/UserDetails";
+import ErrorPages from "./pages/ErrorPages";
+import BuggyComponent from "./components/BuggyComponent";
+import Todo from "./components/todo";
 
 const App = () => {
   return (
@@ -14,7 +17,10 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/users" element={<Users />} />
         <Route path="/users/:id" element={<UserDetails />} />
+        <Route path="/error" element={<BuggyComponent />} />
         <Route path="/about" element={<About />} /> 
+        <Route path="/todo" element={<Todo />} />
+        <Route path="*" element={<ErrorPages />} /> 
       </Routes>
 
     </>
