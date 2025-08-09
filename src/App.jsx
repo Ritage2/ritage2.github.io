@@ -7,7 +7,8 @@ import About from "./pages/about";
 import UserDetails from "./pages/UserDetails";
 import ErrorPages from "./pages/ErrorPages";
 import BuggyComponent from "./components/BuggyComponent";
-import Todo from "./components/todo";
+import Todo from "./components/Todo";
+
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
         <Route path="/users/:id" element={<UserDetails />} />
         <Route path="/error" element={<BuggyComponent />} />
         <Route path="/about" element={<About />} /> 
-        <Route path="/todo" element={<Todo />} />
+       <Route path="/todo" element={<Todo />} />
         <Route path="*" element={<ErrorPages />} /> 
       </Routes>
 
