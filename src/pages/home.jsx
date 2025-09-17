@@ -99,18 +99,18 @@ export default function Home() {
     travel effortless, inspiring, and truly extraordinary.
   </p>
   <div className="flex justify-center gap-4">
-    <a
-      href="/AboutUs"
-      className="bg-orange-500 text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-orange-600 transition transform hover:-translate-y-1"
-    >
-      Learn More
-    </a>
-    <a
-      href="/planner"
-      className="bg-white text-orange-600 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-orange-100 transition transform hover:-translate-y-1"
-    >
-      Start Planning
-    </a>
+    <Link
+  to="/AboutUs"
+  className="bg-orange-500 text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-orange-600 transition transform hover:-translate-y-1"
+>
+  Learn More
+</Link>
+    <Link
+  to="/planner"
+  className="bg-white text-orange-600 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-orange-100 transition transform hover:-translate-y-1"
+>
+  Start Planning
+</Link>
   </div>
 </section>
 
