@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 import Hero from "../components/Hero";
 import DestinationCard from "../components/DestinationCard";
 import destinations from "../data/destinations.json";
