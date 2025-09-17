@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Checkout from "./components/Checkout";
+import Checkout from "./components/checkout";
 import ErrorBoundary from "./components/ErrorBoundary";
 
 // Pages
