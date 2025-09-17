@@ -10,7 +10,7 @@ const initialReviews = [
     review:
       "The Colosseum was breathtaking, and the pasta… wow 🤌! Definitely a trip to remember.",
     date: "2025-09-05",
-    image: "/p1.avif",
+    image: "/images/p1.avif",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const initialReviews = [
     review:
       "Loved the pyramids and history. The markets were busy but full of life. Wear comfy shoes!",
     date: "2025-08-29",
-    image: "/p2.jpg",
+    image: "/images/p2.jpg",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const initialReviews = [
     review:
       "Climbed the Harbour Bridge and chilled at Bondi Beach. Aussies know how to live!",
     date: "2025-08-15",
-    image: "/p3.jpg",
+    image: "/images/p3.jpg",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const initialReviews = [
     review:
       "The temples and gardens were stunning. Sakura season made it even more magical.",
     date: "2025-08-02",
-    image: "/p4.jpg",
+    image: "/images/p4.jpg",
   },
 ];
 

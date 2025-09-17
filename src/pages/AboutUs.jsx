@@ -69,18 +69,18 @@ const AboutUs = () => {
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/cycle.jpg"
+                src="/images/cycle.jpg"
                 alt="Travel planning"
                 className="rounded-2xl shadow-xl w-full h-100"
               />
               <div className="space-y-4">
                 <img
-                  src="/street.jpg"
+                  src="/images/street.jpg"
                   alt="street"
                   className="rounded-2xl shadow-xl w-55 h-45"
                 />
                 <img
-                  src="/tea1.jpg"
+                  src="/images/tea1.jpg"
                   alt="food"
                   className="rounded-2xl shadow-xl w-55 h-50"
                 />

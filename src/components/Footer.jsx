@@ -10,7 +10,7 @@ export default function Footer() {
         <div>
           <h2 className="text-lg font-bold mb-3 flex items-left gap-2">
          <img 
-          src="/logo1.png" 
+          src="/images/logo1.png" 
           alt="Wanderly Logo" 
           className="w-6 h-6"
          />
