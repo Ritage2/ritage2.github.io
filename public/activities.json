@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Eiffel Tower Skip-the-Line Tour",
+    "description": "Fast-track access and guided tour to the Eiffel Tower's top levels.",
+    "city": "Paris",
+    "tags": ["culture","romantic","sightseeing"],
+    "price": 45,
+    "image": "https://source.unsplash.com/600x400/?eiffel,tower"
+  },
+  {
+    "id": 2,
+    "title": "Seine River Evening Cruise",
+    "description": "Romantic cruise with dinner and live music on the Seine.",
+    "city": "Paris",
+    "tags": ["romantic","relax","food"],
+    "price": 80,
+    "image": "https://source.unsplash.com/600x400/?seine,boat"
+  },
+  {
+    "id": 3,
+    "title": "Historic Cairo Walking Tour",
+    "description": "Explore the old city, bazaars and Coptic neighborhood with a local guide.",
+    "city": "Cairo",
+    "tags": ["culture","walking","budget"],
+    "price": 25,
+    "image": "https://source.unsplash.com/600x400/?cairo,bazaar"
+  },
+  {
+    "id": 4,
+    "title": "Giza Pyramids Sunrise Tour",
+    "description": "Private sunrise visit to Giza plateau with an Egyptologist guide.",
+    "city": "Cairo",
+    "tags": ["adventure","culture","premium"],
+    "price": 120,
+    "image": "https://source.unsplash.com/600x400/?pyramids"
+  },
+  {
+    "id": 5,
+    "title": "London Classic Sightseeing Bus",
+    "description": "Hop-on hop-off bus covering Buckingham Palace, Westminster and Tower of London.",
+    "city": "London",
+    "tags": ["sightseeing","family","budget"],
+    "price": 35,
+    "image": "https://source.unsplash.com/600x400/?london,bus"
+  },
+  {
+    "id": 6,
+    "title": "Tokyo Food & Nightlife Tour",
+    "description": "Eat your way through izakayas, street food and hidden bars.",
+    "city": "Tokyo",
+    "tags": ["food","nightlife","adventure"],
+    "price": 60,
+    "image": "https://source.unsplash.com/600x400/?tokyo,food"
+  }
+ 
+]

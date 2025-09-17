@@ -1,0 +1,918 @@
+[
+  {
+    "slug": "paris-france",
+    "name": "Paris, France",
+    "short": "The city of love, art, and fashion.",
+    "price": 1200,
+    "image": "/paris3.jpg",
+
+    "details": {
+      "history": "Paris has been a center of art, culture, and politics since the Roman era, famously home to the French Revolution.",
+      "culture": "Known for its haute couture, fine dining, and café culture.",
+      "topAttractions": ["Eiffel Tower", "Louvre Museum", "Notre-Dame Cathedral"],
+      "bestTime": "April to June and September to November.",
+      "currency": "Euro (EUR)",
+      "population": "≈2.2 million (city) / ≈12.5 million (metro)",
+      "foodHighlights": ["Croissant", "Baguette", "Escargot", "Crème brûlée"]
+      
+    }
+  },
+  {
+    "slug": "london-uk",
+    "name": "London, United Kingdom",
+    "short": "A historic hub of culture and modern life.",
+    "price": 1100,
+    "image": "/l.jpg",
+    "category":"Beaches",
+    "details": {
+      "history": "London grew from a Roman settlement and became the heart of the British Empire.",
+      "culture": "A mix of royal traditions and modern multiculturalism.",
+      "topAttractions": ["Big Ben", "Tower of London", "Buckingham Palace"],
+      "bestTime": "March to May and September to October.",
+      "currency": "British Pound (GBP)",
+      "population": "≈9 million (metro)",
+      "foodHighlights": ["Fish and Chips", "Sunday Roast", "Full English Breakfast", "Pie & Mash"]
+    }
+  },
+  {
+    "slug": "rome-italy",
+    "name": "Rome, Italy",
+    "short": "The Eternal City with ancient ruins and piazzas.",
+    "price": 1000,
+    "image": "/Italy.jpg",
+    "details": {
+      "history": "Rome was the capital of the Roman Empire and remains rich with archaeological heritage.",
+      "culture": "Known for art, architecture, and Italian cuisine.",
+      "topAttractions": ["Colosseum", "Roman Forum", "Trevi Fountain"],
+      "bestTime": "April to June and late September to October.",
+      "currency": "Euro (EUR)",
+      "population": "≈2.8 million (city) / ≈4.3 million (metro)",
+      "foodHighlights": ["Pizza", "Pasta Carbonara", "Gelato", "Tiramisu"]
+    }
+  },
+  {
+    "slug": "venice-italy",
+    "name": "Venice, Italy",
+    "short": "Romantic canals and gondola rides.",
+    "price": 950,
+    "image": "/v.jpg",
+  
+    "details": {
+      "history": "Built on over 100 islands, Venice was a major maritime power during the Middle Ages.",
+      "culture": "Famous for opera, glassmaking, and Venetian masks.",
+      "topAttractions": ["Grand Canal", "St. Mark’s Basilica", "Rialto Bridge"],
+      "bestTime": "April to May and September to November.",
+      "currency": "Euro (EUR)",
+      "population": "≈260k (city) / ≈1.6 million (metro)",
+      "foodHighlights": ["Seafood Risotto", "Sarde in Saor", "Cicchetti", "Tiramisu"]
+    }
+  },
+  {
+    "slug": "barcelona-spain",
+    "name": "Barcelona, Spain",
+    "short": "Modernist architecture and Mediterranean vibes.",
+    "price": 1050,
+    "image": "/s.jpg",
+    
+    "details": {
+      "history": "Barcelona was founded as a Roman city and grew into Catalonia’s vibrant capital.",
+      "culture": "Celebrated for Gaudí’s architecture and Catalan traditions.",
+      "topAttractions": ["Sagrada Familia", "Park Güell", "La Rambla"],
+      "bestTime": "May to June and September to October.",
+      "currency": "Euro (EUR)",
+      "population": "≈1.6 million (city) / ≈5.5 million (metro)",
+      "foodHighlights": ["Paella", "Tapas", "Churros", "Crema Catalana"]
+    }
+  },
+  {
+    "slug": "madrid-spain",
+    "name": "Madrid, Spain",
+    "short": "A lively city with art, parks, and tapas.",
+    "price": 980,
+    "image": "/m.jpg",
+    "details": {
+      "history": "Madrid became Spain’s capital in the 16th century under King Philip II.",
+      "culture": "Known for its nightlife, tapas, and flamenco music.",
+      "topAttractions": ["Prado Museum", "Royal Palace", "Retiro Park"],
+      "bestTime": "March to May and September to November.",
+      "currency": "Euro (EUR)",
+      "population": "≈3.3 million (city) / ≈6.6 million (metro)",
+      "foodHighlights": ["Tapas", "Churros", "Cocido Madrileño", "Paella"]
+    }
+  },
+  {
+    "slug": "athens-greece",
+    "name": "Athens, Greece",
+    "short": "Birthplace of democracy and the Acropolis.",
+    "price": 900,
+    "image": "/g1.jpg",
+    "details": {
+      "history": "Athens was the heart of Ancient Greece, a powerful civilization and empire.",
+      "culture": "Rich in mythology, philosophy, and Mediterranean cuisine.",
+      "topAttractions": ["Acropolis", "Parthenon", "Plaka District"],
+      "bestTime": "March to May and September to November.",
+      "currency": "Euro (EUR)",
+      "population": "≈660k (city) / ≈3.1 million (metro)",
+      "foodHighlights": ["Moussaka", "Souvlaki", "Tzatziki", "Baklava"]
+    }
+  },
+  {
+    "slug": "santorini-greece",
+    "name": "Santorini, Greece",
+    "short": "Famous white houses and stunning sunsets.",
+    "price": 1150,
+    "image": "/g2.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Santorini was formed by a volcanic eruption, creating its dramatic cliffs.",
+      "culture": "Iconic Cycladic architecture and wine-making traditions.",
+      "topAttractions": ["Oia Village", "Red Beach", "Ancient Thera"],
+      "bestTime": "April to May and September to October.",
+      "currency": "Euro (EUR)",
+      "population": "≈15k (island)",
+      "foodHighlights": ["Fava beans", "Tomatokeftedes", "Fresh seafood", "Greek salad"]
+    }
+  },
+  {
+    "slug": "istanbul-turkey",
+    "name": "Istanbul, Turkey",
+    "short": "Where East meets West with rich history.",
+    "price": 950,
+    "image": "/i1.jpg",
+    "details": {
+      "history": "Istanbul, formerly Byzantium and Constantinople, was capital of the Byzantine and Ottoman Empires.",
+      "culture": "A fusion of European and Asian influences.",
+      "topAttractions": ["Hagia Sophia", "Blue Mosque", "Grand Bazaar"],
+      "bestTime": "April to May and September to November.",
+      "currency": "Turkish Lira (TRY)",
+      "population": "≈15.8 million (metro)",
+      "foodHighlights": ["Kebabs", "Baklava", "Meze", "Turkish Delight"]
+    }
+  },
+  {
+    "slug": "cappadocia-turkey",
+    "name": "Cappadocia, Turkey",
+    "short": "Hot air balloons over fairy chimneys.",
+    "price": 1000,
+    "image": "/i2.jpg",
+    "details": {
+      "history": "Cappadocia is famous for its unique rock formations and ancient cave dwellings.",
+      "culture": "Known for carpet weaving, pottery, and Turkish hospitality.",
+      "topAttractions": ["Göreme National Park", "Derinkuyu Underground City", "Hot Air Balloon Rides"],
+      "bestTime": "April to June and September to October.",
+      "currency": "Turkish Lira (TRY)",
+      "population": "≈75k (district)",
+      "foodHighlights": ["Pottery Kebab", "Gözleme", "Baklava", "Turkish tea"]
+    }
+  },
+
+  {
+    "slug": "cairo-egypt",
+    "name": "Cairo, Egypt",
+    "short": "Land of pyramids and the Nile River.",
+    "price": 850,
+    "image": "/e.jpg",
+    "category":"Mountains",
+     "details": {
+    "history": "One of the oldest continuously inhabited cities; gateway to ancient Egyptian civilization and the Giza pyramids.",
+    "culture": "Strong Arabic traditions, bustling bazaars, Nile culture and Coptic heritage.",
+    "topAttractions": ["Giza Pyramids & Sphinx", "Egyptian Museum", "Khan el-Khalili Bazaar", "Coptic Cairo"],
+    "bestTime": "October–April (milder weather)",
+    "currency": "Egyptian Pound (EGP)",
+    "population": "≈9.5 million (city) / ≈20 million (metro)",
+    "foodHighlights": ["Koshari", "Ful medames", "Ta'ameya (Egyptian falafel)", "Molokhia"]
+     }
+  },
+  {
+    "slug": "luxor-egypt",
+    "name": "Luxor, Egypt",
+    "short": "Ancient temples and Valley of the Kings.",
+    "price": 870,
+    "image": "/le.jpg",
+    "category":"Mountains",
+     "details": {
+    "history": "Luxor stands on the site of ancient Thebes, with enormous temples and royal tombs.",
+    "culture": "Strong pharaonic heritage, archaeological tourism and traditional Nubian influences.",
+    "topAttractions": ["Valley of the Kings", "Karnak Temple", "Luxor Temple", "Colossi of Memnon"],
+    "bestTime": "October–April",
+    "currency": "Egyptian Pound (EGP)",
+    "population": "≈500k (city)",
+    "foodHighlights": ["Grilled meats", "Ful", "Molokhia", "Local river fish"]
+     }
+  },
+  {
+    "slug": "marrakech-morocco",
+    "name": "Marrakech, Morocco",
+    "short": "Bustling souks and colorful medinas.",
+    "price": 950,
+    "image": "/mar.jpg",
+     "details": {
+    "history": "Founded in the 11th century; historically a trade crossroads connecting sub-Saharan Africa and Europe.",
+    "culture": "Arabic, Berber and Islamic traditions; famous for souks, riads and craftsmanship.",
+    "topAttractions": ["Jemaa el-Fnaa", "Bahia Palace", "Majorelle Garden", "Koutoubia Mosque"],
+    "bestTime": "March–May and September–November",
+    "currency": "Moroccan Dirham (MAD)",
+    "population": "≈1 million (city)",
+    "foodHighlights": ["Tagine", "Couscous", "Mint tea", "Pastilla"]
+     }
+  },
+  {
+    "slug": "cape-town-southafrica",
+    "name": "Cape Town, South Africa",
+    "short": "Table Mountain and beautiful coastlines.",
+    "price": 1200,
+    "image": "/ca.jpg",
+     "details": {
+    "history": "A key port city with Dutch and British colonial history and a rich indigenous heritage.",
+    "culture": "Multicultural city with strong outdoor culture, vineyards and a vibrant arts scene.",
+    "topAttractions": ["Table Mountain", "Robben Island", "Cape Point", "V&A Waterfront"],
+    "bestTime": "September–November and March–May (spring and autumn)",
+    "currency": "South African Rand (ZAR)",
+    "population": "≈4.6 million (metro)",
+    "foodHighlights": ["Braai (barbecue)", "Biltong", "Bobotie", "Seafood"]
+     }
+  },
+  {
+    "slug": "dubai-uae",
+    "name": "Dubai, UAE",
+    "short": "Luxury skyscrapers and desert adventures.",
+    "price": 1300,
+    "image": "/dubai.jpg",
+     "details": {
+    "history": "Small fishing and pearl villages transformed into a global city after oil discovery; rapid modern development.",
+    "culture": "Blend of Emirati traditions with global expatriate influences; luxury retail and modern architecture.",
+    "topAttractions": ["Burj Khalifa", "Dubai Mall", "Palm Jumeirah", "Desert safaris"],
+    "bestTime": "November–March (milder weather)",
+    "currency": "United Arab Emirates dirham (AED)",
+    "population": "≈3.5 million (city)",
+    "foodHighlights": ["Shawarma", "Al Machboos", "Luqaimat", "Emirati mezze"]
+     }
+  },
+  {
+    "slug": "abu-dhabi-uae",
+    "name": "Abu Dhabi, UAE",
+    "short": "Cultural landmarks and stunning mosques.",
+    "price": 1250,
+    "image": "/d2.jpg",
+     "details": {
+    "history": "Capital of the UAE and center of politics and culture with rapid development after oil wealth.",
+    "culture": "Emirati heritage, museums, and modern urban planning.",
+    "topAttractions": ["Sheikh Zayed Grand Mosque", "Louvre Abu Dhabi", "Corniche", "Qasr Al Watan"],
+    "bestTime": "November–March",
+    "currency": "United Arab Emirates dirham (AED)",
+    "population": "≈1.5 million (city)",
+    "foodHighlights": ["Shawarma", "Al Harees", "Date-based desserts", "Seafood"]
+     }
+  },
+  {
+    "slug": "petra-jordan",
+    "name": "Petra, Jordan",
+    "short": "Rose-red city carved into rock.",
+    "price": 1000,
+    "image": "/d3.jpg",
+    "category":"Mountains",
+     "details": {
+    "history": "Ancient Nabatean capital carved into sandstone cliffs; important caravan city on trade routes.",
+    "culture": "Bedouin traditions, Jordanian hospitality and archaeological tourism.",
+    "topAttractions": ["Al-Khazneh (The Treasury)", "Monastery (Ad Deir)", "Siq", "Royal Tombs"],
+    "bestTime": "March–May and September–November",
+    "currency": "Jordanian Dinar (JOD)",
+    "population": "Petra region small; nearest city (Wadi Musa) ≈25k",
+    "foodHighlights": ["Mansaf", "Maqluba", "Hummus", "Jordanian mezze"]
+     }
+  },
+  {
+    "slug": "bali-indonesia",
+    "name": "Bali, Indonesia",
+    "short": "Tropical paradise with beaches and temples.",
+    "price": 1100,
+    "image": "/bali.jpg",
+    "category": "Beaches",
+     "details": {
+    "history": "Balinese Hindu culture developed over centuries with strong traditions distinct from much of Indonesia.",
+    "culture": "Hindu festivals, temple architecture, traditional dance, surf culture and wellness tourism.",
+    "topAttractions": ["Ubud (rice terraces & arts)", "Tanah Lot", "Uluwatu Temple", "Seminyak beaches"],
+    "bestTime": "April–October (dry season)",
+    "currency": "Indonesian Rupiah (IDR)",
+    "population": "Bali island ≈4.3 million",
+    "foodHighlights": ["Nasi goreng", "Babi guling", "Satay", "Lawar"]
+     }
+  },
+  {
+    "slug": "jakarta-indonesia",
+    "name": "Jakarta, Indonesia",
+    "short": "A lively capital full of culture and markets.",
+    "price": 950,
+    "image": "/b2.jpg",
+     "details": {
+    "history": "Capital of Indonesia, a melting pot shaped by maritime trade, colonial history and post-independence development.",
+    "culture": "Diverse languages and cuisines from across Indonesia; bustling urban life.",
+    "topAttractions": ["Monas (National Monument)", "Kota Tua (Old Town)", "Istiqlal Mosque", "Taman Mini Indonesia Indah"],
+    "bestTime": "May–September (drier months)",
+    "currency": "Indonesian Rupiah (IDR)",
+    "population": "≈10.5 million (city) / ≈30 million (metro)",
+    "foodHighlights": ["Nasi goreng", "Satay", "Soto Betawi", "Bakso"]
+     }
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore",
+    "short": "A futuristic city with green spaces.",
+    "price": 1250,
+    "image": "/sin.jpg",
+     "details": {
+    "history": "A strategic port city that modernized rapidly after independence in 1965 into a global financial hub.",
+    "culture": "Multicultural (Chinese, Malay, Indian), strong urban planning and strict civic rules.",
+    "topAttractions": ["Marina Bay Sands", "Gardens by the Bay", "Sentosa Island", "Chinatown & Little India"],
+    "bestTime": "Year-round (equatorial climate) — drier months Feb–Apr marginally better",
+    "currency": "Singapore Dollar (SGD)",
+    "population": "≈5.6 million (country/city-state)",
+    "foodHighlights": ["Hainanese chicken rice", "Chili crab", "Laksa", "Satay"]
+     }
+  },
+  {
+    "slug": "kuala-lumpur-malaysia",
+    "name": "Kuala Lumpur, Malaysia",
+    "short": "Petronas Towers and diverse food culture.",
+    "price": 1000,
+    "image": "/m2.jpg",
+     "details": {
+    "history": "Founded as a tin-mining town and grew into Malaysia's modern capital blending Malay, Chinese and Indian influences.",
+    "culture": "Diverse ethnic mix, religious festivals, street food culture.",
+    "topAttractions": ["Petronas Twin Towers", "Batu Caves", "Bukit Bintang", "Merdeka Square"],
+    "bestTime": "May–July or December–February (slightly drier windows)",
+    "currency": "Malaysian Ringgit (MYR)",
+    "population": "≈1.8 million (city) / ≈7.5 million (metro)",
+    "foodHighlights": ["Nasi lemak", "Char kway teow", "Satay", "Roti canai"]
+     }
+  },
+  {
+    "slug": "bangkok-thailand",
+    "name": "Bangkok, Thailand",
+    "short": "Bustling markets and vibrant temples.",
+    "price": 900,
+    "image": "/tq.jpg",
+     "details": {
+    "history": "Capital of Thailand since the late 18th century and a major regional trading and cultural center.",
+    "culture": "Thai temples, street food culture, lively markets and royal traditions.",
+    "topAttractions": ["Grand Palace", "Wat Arun", "Wat Pho", "Chatuchak Market"],
+    "bestTime": "November–February (cooler, dry season)",
+    "currency": "Thai Baht (THB)",
+    "population": "≈10.5 million (city) / ≈14 million (metro)",
+    "foodHighlights": ["Pad Thai", "Tom yum goong", "Som tam (papaya salad)", "Mango sticky rice"]
+     }
+  },
+  {
+    "slug": "chiangmai-thailand",
+    "name": "Chiang Mai, Thailand",
+    "short": "Cultural heart of northern Thailand.",
+    "price": 870,
+    "image": "/t3.jpg",
+     "details": {
+    "history": "Former capital of the Lanna Kingdom with centuries-old temples and mountain culture.",
+    "culture": "Lanna traditions, night markets, temple festivals and handicrafts.",
+    "topAttractions": ["Old City temples (Wat Phra Singh)", "Doi Suthep", "Night Bazaar", "Elephant sanctuaries (ethical options)"],
+    "bestTime": "November–February (cool, dry season)",
+    "currency": "Thai Baht (THB)",
+    "population": "≈130k (city) / ≈1–2 million (metro area)",
+    "foodHighlights": ["Khao soi", "Sai ua (northern sausage)", "Sticky rice", "Mango sticky rice"]
+     }
+  },
+  {
+    "slug": "tokyo-japan",
+    "name": "Tokyo, Japan",
+    "short": "A mix of ultramodern and traditional culture.",
+    "price": 1400,
+    "image": "/tj.jpg",
+     "details": {
+    "history": "Formerly Edo, Tokyo became Japan's political center in the 17th century and grew into a global megacity.",
+    "culture": "Blend of ancient shrines and cutting-edge tech/pop culture, world-class cuisine and fashion.",
+    "topAttractions": ["Senso-ji (Asakusa)", "Shinjuku / Shibuya", "Meiji Shrine", "Tokyo Skytree"],
+    "bestTime": "March–May (cherry blossom) and September–November (autumn foliage)",
+    "currency": "Japanese Yen (JPY)",
+    "population": "≈14 million (city) / ≈38 million (metro)",
+    "foodHighlights": ["Sushi", "Ramen", "Tempura", "Izakaya snacks"]
+     }
+  },
+  {
+    "slug": "kyoto-japan",
+    "name": "Kyoto, Japan",
+    "short": "Ancient temples and peaceful gardens.",
+    "price": 1300,
+    "image": "/t5.jpg",
+     "details": {
+    "history": "Japan's imperial capital for over a thousand years, preserving traditional architecture, temples and gardens.",
+    "culture": "Geisha districts, tea ceremonies, Zen gardens and seasonal festivals.",
+    "topAttractions": ["Kinkaku-ji (Golden Pavilion)", "Fushimi Inari Shrine", "Gion", "Arashiyama Bamboo Grove"],
+    "bestTime": "March–May and October–November",
+    "currency": "Japanese Yen (JPY)",
+    "population": "≈1.5 million (city)",
+    "foodHighlights": ["Kaiseki (multi-course)", "Yudofu", "Matcha sweets", "Sushi"]
+     }
+  },
+  {
+    "slug": "seoul-korea",
+    "name": "Seoul, South Korea",
+    "short": "Trendy districts and royal palaces.",
+    "price": 1200,
+    "image": "/s1.jpg",
+     "details": {
+    "history": "Capital of several Korean dynasties and modern center for technology, pop culture (K-pop) and commerce.",
+    "culture": "Vibrant pop culture, palace heritage, nightlife and street food.",
+    "topAttractions": ["Gyeongbokgung Palace", "Bukchon Hanok Village", "Myeongdong", "N Seoul Tower"],
+    "bestTime": "April–June and September–November",
+    "currency": "South Korean Won (KRW)",
+    "population": "≈9.7 million (city) / ≈25 million (metro)",
+    "foodHighlights": ["Kimchi", "Bibimbap", "Korean barbecue", "Tteokbokki"]
+     }
+  },
+  {
+    "slug": "hongkong",
+    "name": "Hong Kong",
+    "short": "A vibrant city with skyline and harbor.",
+    "price": 1250,
+    "image": "/h.jpg",
+    "category": "Beaches",
+     "details": {
+    "history": "A former British colony and major trading port; today a global financial center with a unique East-meets-West culture.",
+    "culture": "Cantonese cuisine, bustling markets, cinematic legacy and dense skyline.",
+    "topAttractions": ["Victoria Peak", "Star Ferry", "Tsim Sha Tsui promenade", "Ladies Market"],
+    "bestTime": "October–December (pleasant, dry)",
+    "currency": "Hong Kong Dollar (HKD)",
+    "population": "≈7.5 million (city)",
+    "foodHighlights": ["Dim sum", "Roast goose", "Wonton noodles", "Egg tarts"]
+     }
+  },
+  {
+    "slug": "sydney-australia",
+    "name": "Sydney, Australia",
+    "short": "Opera House and stunning harbor views.",
+    "price": 1500,
+    "image": "/sd.jpg",
+    "category": "Beaches",
+     "details": {
+    "history": "Founded as a British penal colony, grew into a multicultural metropolis and Australia’s iconic harbour city.",
+    "culture": "Beach lifestyle, outdoor cafes, strong arts scene and multicultural food.",
+    "topAttractions": ["Sydney Opera House", "Harbour Bridge", "Bondi Beach", "The Rocks"],
+    "bestTime": "September–November and March–May",
+    "currency": "Australian Dollar (AUD)",
+    "population": "≈5.3 million (metro)",
+    "foodHighlights": ["Barramundi / seafood", "Meat pies", "Flat white coffee", "BBQ (Aussie 'barbie')"]
+     }
+  },
+  {
+    "slug": "melbourne-australia",
+    "name": "Melbourne, Australia",
+    "short": "Cultural capital with coffee and arts.",
+    "price": 1450,
+    "image": "/sa.jpg",
+     "details": {
+    "history": "Grew rapidly during the Victorian gold rush and is now known for arts, sport and coffee culture.",
+    "culture": "Cafés, street art, live music and major sporting events.",
+    "topAttractions": ["Federation Square", "Royal Botanic Gardens", "Great Ocean Road (nearby)", "Queen Victoria Market"],
+    "bestTime": "March–May and September–November",
+    "currency": "Australian Dollar (AUD)",
+    "population": "≈5 million (metro)",
+    "foodHighlights": ["Flat white & specialty coffee", "Meat pies", "Multicultural cuisine", "Avocado toast"]
+     }
+  },
+  {
+    "slug": "newyork-usa",
+    "name": "New York City, USA",
+    "short": "The city that never sleeps.",
+    "price": 1500,
+    "image": "/usa1.jpg",
+     "details": {
+    "history": "A major colonial port evolved into the economic and cultural capital of the United States.",
+    "culture": "Theatre (Broadway), diverse neighborhoods, museums and 24/7 city life.",
+    "topAttractions": ["Times Square", "Statue of Liberty", "Central Park", "Metropolitan Museum of Art"],
+    "bestTime": "April–June and September–November",
+    "currency": "United States Dollar (USD)",
+    "population": "≈8.3 million (city) / ≈20 million (metro)",
+    "foodHighlights": ["New York-style pizza", "Bagels & lox", "Pastrami sandwich", "Hot dogs"]
+     }
+  },
+  {
+    "slug": "losangeles-usa",
+    "name": "Los Angeles, USA",
+    "short": "Hollywood, beaches, and sunshine.",
+    "price": 1450,
+    "image": "/lusa.jpg",
+     "details": {
+    "history": "From Spanish mission and ranching outpost to global center for film and entertainment.",
+    "culture": "Film and music industries, beach culture, and major car-centric urban sprawl.",
+    "topAttractions": ["Hollywood Walk of Fame", "Santa Monica Pier", "Griffith Observatory", "Rodeo Drive"],
+    "bestTime": "Year-round (mild Mediterranean climate), best spring & fall",
+    "currency": "United States Dollar (USD)",
+    "population": "≈4 million (city) / ≈13 million (metro)",
+    "foodHighlights": ["California-style Mexican (tacos, burritos)", "Korean BBQ", "In-N-Out burger", "Farm-to-table cuisine"]
+     }
+  },
+  {
+    "slug": "miami-usa",
+    "name": "Miami, USA",
+    "short": "Tropical vibes and Art Deco style.",
+    "price": 1400,
+    "image": "/cusa.jpg",
+    "category": "Beaches",
+     "details": {
+    "history": "Grew in the 20th century as a tourist destination; strong Latin American and Caribbean influences.",
+    "culture": "Beaches, nightlife, Latin music, and Art Deco heritage in South Beach.",
+    "topAttractions": ["South Beach", "Art Deco Historic District", "Little Havana", "Wynwood Walls"],
+    "bestTime": "November–April (dry season)",
+    "currency": "United States Dollar (USD)",
+    "population": "≈470k (city) / ≈6.1 million (metro)",
+    "foodHighlights": ["Cuban sandwich", "Stone crab", "Key lime pie", "Ceviche"]
+     }
+  },
+  {
+    "slug": "sanfrancisco-usa",
+    "name": "San Francisco, USA",
+    "short": "Golden Gate Bridge and hilly streets.",
+    "price": 1350,
+    "image": "/pp.jpg",
+    "category": "Beaches",
+     "details": {
+    "history": "Boomed during the Gold Rush and later developed into a tech and cultural center.",
+    "culture": "Progressive, tech-influenced, with strong food and arts scenes.",
+    "topAttractions": ["Golden Gate Bridge", "Alcatraz Island", "Fisherman's Wharf", "Chinatown"],
+    "bestTime": "September–November (less fog), spring also pleasant",
+    "currency": "United States Dollar (USD)",
+    "population": "≈884k (city) / ≈4.7 million (metro)",
+    "foodHighlights": ["Sourdough bread", "Seafood (clam chowder)", "Mission-style burrito", "Dim sum"]
+     }
+  },
+  {
+    "slug": "rio-brazil",
+    "name": "Rio de Janeiro, Brazil",
+    "short": "Beaches, Carnival, and Christ the Redeemer.",
+    "price": 1200,
+    "image": "/brazil.jpg",
+     "details": {
+    "history": "Famous colonial port and former capital, known for its dramatic landscape and Carnival tradition.",
+    "culture": "Samba, Carnival festivals, beach culture and Afro-Brazilian influences.",
+    "topAttractions": ["Christ the Redeemer", "Sugarloaf Mountain", "Copacabana", "Ipanema"],
+    "bestTime": "December–March (summer) but Carnival timing varies (Feb–Mar)",
+    "currency": "Brazilian Real (BRL)",
+    "population": "≈6.7 million (city) / ≈13 million (metro)",
+    "foodHighlights": ["Feijoada", "Açaí", "Churrasco (Brazilian barbecue)", "Coxinha"]
+     }
+  },
+  {
+    "slug": "cancun-mexico",
+    "name": "Cancún, Mexico",
+    "short": "Turquoise waters and Mayan ruins.",
+    "price": 1050,
+    "image": "/sea.jpg",
+    "category": "Beaches",
+     "details": {
+    "history": "Developed as a tourist resort in the 1970s on the Yucatán Peninsula with nearby Mayan archaeological sites.",
+    "culture": "Resort tourism, Mayan heritage nearby and coastal seafood traditions.",
+    "topAttractions": ["Beaches of the Hotel Zone", "Chichén Itzá (nearby)", "Isla Mujeres", "Underwater Museum (MUSA)"],
+    "bestTime": "December–April (dry season)",
+    "currency": "Mexican Peso (MXN)",
+    "population": "≈888k (municipality / metro area)",
+    "foodHighlights": ["Tacos al pastor", "Ceviche", "Cochinita pibil", "Seafood"]
+     }
+  },
+  {
+    "slug": "havana-cuba",
+    "name": "Havana, Cuba",
+    "short": "Colorful streets and classic cars.",
+    "price": 950,
+    "image": "/new.jpg",
+     "details": {
+    "history": "Founded by the Spanish, Havana retains colonial architecture, revolutionary history and strong Afro-Caribbean culture.",
+    "culture": "Music (son, salsa), classic cars, colonial plazas and lively street life.",
+    "topAttractions": ["Old Havana (Habana Vieja)", "Malecón", "Plaza de la Revolución", "El Capitolio"],
+    "bestTime": "November–April (dry season)",
+    "currency": "Cuban Peso (CUP) / Convertible Peso (historically used by tourists; check current local regulations)",
+    "population": "≈2.1 million (city)",
+    "foodHighlights": ["Ropa vieja", "Lechón asado", "Moros y Cristianos", "Tostones"]
+     }
+  },
+  {
+    "slug": "reykjavik-iceland",
+    "name": "Reykjavík, Iceland",
+    "short": "Northern lights and geothermal wonders.",
+    "price": 1750,
+    "image": "/img1.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Settled by Vikings in the 9th century, now Iceland’s capital.",
+      "culture": "Nordic heritage, music, geothermal living.",
+      "topAttractions": ["Blue Lagoon", "Golden Circle", "Hallgrímskirkja"],
+      "bestTime": "Sept–March (aurora) or June–Aug (midnight sun)",
+      "currency": "Icelandic Krona (ISK)",
+      "population": "≈135k",
+      "foodHighlights": ["Lamb stew", "Skyr yogurt", "Seafood soup"]
+    }
+  },
+  {
+    "slug": "siem-reap-cambodia",
+    "name": "Siem Reap, Cambodia",
+    "short": "Gateway to Angkor Wat temples.",
+    "price": 1200,
+    "image": "/img2.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Once the capital of the Khmer Empire, famed for Angkor Wat.",
+      "culture": "Buddhist traditions, Khmer architecture.",
+      "topAttractions": ["Angkor Wat", "Bayon Temple", "Tonle Sap Lake"],
+      "bestTime": "Nov–March",
+      "currency": "US Dollar (widely used)",
+      "population": "≈245k",
+      "foodHighlights": ["Amok curry", "Lok lak", "Sticky rice desserts"]
+    }
+  },
+  {
+    "slug": "queenstown-new-zealand",
+    "name": "Queenstown, New Zealand",
+    "short": "Adventure capital of the world.",
+    "price": 1850,
+    "image": "/img3.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Gold rush town turned adventure hub.",
+      "culture": "Kiwi outdoor lifestyle, Maori traditions nearby.",
+      "topAttractions": ["Milford Sound", "Skyline Gondola", "Bungee jumping"],
+      "bestTime": "Dec–Feb (summer) or June–Aug (ski season)",
+      "currency": "NZ Dollar (NZD)",
+      "population": "≈47k",
+      "foodHighlights": ["Lamb roast", "Fergburger", "Pavlova"]
+    }
+  },
+  {
+    "slug": "zanzibar-tanzania",
+    "name": "Zanzibar, Tanzania",
+    "short": "Spice islands with pristine beaches.",
+    "price": 1500,
+    "image": "/img4.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Trading hub for spices, part of Sultanate of Oman.",
+      "culture": "Swahili culture, spice tours, dhow sailing.",
+      "topAttractions": ["Stone Town", "Nungwi Beach", "Jozani Forest"],
+      "bestTime": "June–Oct",
+      "currency": "Tanzanian Shilling (TZS)",
+      "population": "≈1.3M",
+      "foodHighlights": ["Zanzibar pizza", "Seafood curries", "Tandoori chicken"]
+    }
+  },
+  {
+    "slug": "bhutan-paro",
+    "name": "Paro, Bhutan",
+    "short": "Himalayan monasteries and dramatic landscapes.",
+    "price": 2000,
+    "image": "/img5.jpg",
+    "category": "Mountains",
+    "details": {
+      "history": "Historic town home to Paro Dzong fortress and Rinpung Dzong monastery.",
+      "culture": "Buddhist heritage, festivals, Himalayan traditions.",
+      "topAttractions": ["Tiger's Nest Monastery", "Rinpung Dzong", "National Museum of Bhutan"],
+      "bestTime": "Mar–May or Sept–Nov",
+      "currency": "Bhutanese Ngultrum (BTN)",
+      "population": "≈20k",
+      "foodHighlights": ["Ema datshi", "Red rice", "Phaksha paa"]
+    }
+  },
+  {
+    "slug": "galapagos-ecuador",
+    "name": "Galápagos Islands, Ecuador",
+    "short": "Unique wildlife and volcanic landscapes.",
+    "price": 2200,
+    "image": "/img6.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Volcanic islands studied by Darwin for evolution.",
+      "culture": "Eco-tourism, marine conservation.",
+      "topAttractions": ["Giant tortoises", "Snorkeling spots", "Volcano hikes"],
+      "bestTime": "Dec–May",
+      "currency": "US Dollar (USD)",
+      "population": "≈25k",
+      "foodHighlights": ["Ceviche", "Fresh seafood", "Plantains"]
+    }
+  },
+   {
+    "slug": "chamonix-france",
+    "name": "Chamonix, France",
+    "short": "Alpine skiing and Mont Blanc views.",
+    "price": 1600,
+    "image": "/img7.jpg",
+    "category": "M",
+    "details": {
+      "history": "Famous mountain town and first Winter Olympics host.",
+      "culture": "Alpine sports, French mountain cuisine, mountaineering.",
+      "topAttractions": ["Mont Blanc", "Aiguille du Midi", "Mer de Glace"],
+      "bestTime": "Dec–Feb (ski) or June–Sept (hiking)",
+      "currency": "Euro (EUR)",
+      "population": "≈9k",
+      "foodHighlights": ["Fondue", "Raclette", "Savoyard dishes"]
+    }
+  },
+  
+  {
+    "slug": "svalbard-norway",
+    "name": "Svalbard, Norway",
+    "short": "Arctic wilderness with polar bears.",
+    "price": 3000,
+    "image": "/img8.jpg",
+    "category": "Mountains",
+    "details": {
+      "history": "Remote Arctic archipelago, historically a whaling and mining area.",
+      "culture": "Scientific research, Arctic expeditions, small international community.",
+      "topAttractions": ["Northern lights", "Polar bear sightings", "Glacier tours"],
+      "bestTime": "Feb–Mar (aurora) or June–Aug (midnight sun)",
+      "currency": "Norwegian Krone (NOK)",
+      "population": "≈2.7k",
+      "foodHighlights": ["Reindeer meat", "Arctic char", "King crab"]
+    }
+  },
+  {
+    "slug": "madagascar",
+    "name": "Madagascar",
+    "short": "Island of unique wildlife and baobabs.",
+    "price": 2100,
+    "image": "/img9.jpg",
+    "category": "Mountains",
+    "details": {
+      "history": "Fourth largest island in the world, with unique biodiversity.",
+      "culture": "Malagasy traditions, music, and dance.",
+      "topAttractions": ["Avenue of the Baobabs", "Tsingy de Bemaraha", "Lemur sanctuaries"],
+      "bestTime": "Apr–Nov",
+      "currency": "Malagasy Ariary (MGA)",
+      "population": "≈28M",
+      "foodHighlights": ["Romazava", "Ravitoto", "Zebu meat"]
+    }
+  },
+  {
+    "slug": "bhutan-thimphu",
+    "name": "Thimphu, Bhutan",
+    "short": "Peaceful Himalayan capital with rich Buddhist culture.",
+    "price": 2200,
+    "image": "/img10.jpg",
+    "category": "Cultural",
+    "details": {
+      "history": "Capital city with dzongs, monasteries, and Bhutanese architecture.",
+      "culture": "Buddhist festivals, traditional dress, local crafts.",
+      "topAttractions": ["Tashichho Dzong", "Buddha Dordenma Statue", "Folk Heritage Museum"],
+      "bestTime": "Mar–May or Sept–Nov",
+      "currency": "Bhutanese Ngultrum (BTN)",
+      "population": "≈114k",
+      "foodHighlights": ["Ema datshi", "Red rice", "Momos"]
+    }
+  },
+  {
+    "slug": "komodo-island-indonesia",
+    "name": "Komodo Island, Indonesia",
+    "short": "Home of the famous Komodo dragons.",
+    "price": 1800,
+    "image": "/img11.jpg",
+    "category": "Nature",
+    "details": {
+      "history": "Part of the Lesser Sunda Islands, UNESCO World Heritage site.",
+      "culture": "Local island communities, eco-tourism, diving culture.",
+      "topAttractions": ["Komodo dragons", "Pink Beach", "Diving at Batu Bolong"],
+      "bestTime": "Apr–Dec",
+      "currency": "Indonesian Rupiah (IDR)",
+      "population": "≈2k",
+      "foodHighlights": ["Fresh seafood", "Satay", "Nasi goreng"]
+    }
+  },
+  {
+    "slug": "patagonia-chile-argentina",
+    "name": "Patagonia, Chile & Argentina",
+    "short": "Dramatic mountains, glaciers, and wild landscapes.",
+    "price": 2500,
+    "image": "/img12.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Remote region spanning southern Chile and Argentina, explored in 19th century expeditions.",
+      "culture": "Ranching, gaucho traditions, adventure tourism.",
+      "topAttractions": ["Torres del Paine", "Perito Moreno Glacier", "Fitz Roy Range"],
+      "bestTime": "Oct–Mar",
+      "currency": "Chilean Peso (CLP) / Argentine Peso (ARS)",
+      "population": "Sparse",
+      "foodHighlights": ["Asado", "Patagonian lamb", "Seafood"]
+    }
+  },
+  {
+    "slug": "faroe-islands",
+    "name": "Faroe Islands",
+    "short": "North Atlantic cliffs and remote Viking charm.",
+    "price": 2700,
+    "image": "/img13.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "North Atlantic archipelago under Danish sovereignty.",
+      "culture": "Viking heritage, sheep farming, folk music.",
+      "topAttractions": ["Saksun village", "Tjørnuvík", "Mulafossur Waterfall"],
+      "bestTime": "May–Sep",
+      "currency": "Danish Krone (DKK)",
+      "population": "≈53k",
+      "foodHighlights": ["Fermented fish", "Lamb dishes", "Seafood"]
+    }
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "short": "Tropical island with ancient cities and tea plantations.",
+    "price": 1600,
+    "image": "/img14.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Ancient civilizations dating back over 2,000 years.",
+      "culture": "Buddhist temples, colonial heritage, tea culture.",
+      "topAttractions": ["Sigiriya Rock Fortress", "Temple of the Tooth", "Ella train ride"],
+      "bestTime": "Dec–Mar",
+      "currency": "Sri Lankan Rupee (LKR)",
+      "population": "≈22M",
+      "foodHighlights": ["Rice & curry", "Hoppers", "Kottu"]
+    }
+  },
+  {
+    "slug": "namibia",
+    "name": "Namibia",
+    "short": "Deserts, dunes, and wildlife safaris.",
+    "price": 2300,
+    "image": "/img15.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Former German colony, independent since 1990.",
+      "culture": "Indigenous communities, wildlife tourism, desert lifestyle.",
+      "topAttractions": ["Sossusvlei", "Etosha National Park", "Skeleton Coast"],
+      "bestTime": "May–Oct",
+      "currency": "Namibian Dollar (NAD)",
+      "population": "≈2.5M",
+      "foodHighlights": ["Game meat", "Kapana (street BBQ)", "Mahangu porridge"]
+    }
+  },
+  {
+    "slug": "moorea-french-polynesia",
+    "name": "Moorea, French Polynesia",
+    "short": "Lagoon paradise with mountain backdrops.",
+    "price": 2800,
+    "image": "/img16.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Island near Tahiti, famous for Polynesian culture.",
+      "culture": "Traditional Polynesian dance, music, and weaving.",
+      "topAttractions": ["Belvedere Lookout", "Opunohu Bay", "Snorkeling with rays"],
+      "bestTime": "May–Oct",
+      "currency": "CFP Franc (XPF)",
+      "population": "≈17k",
+      "foodHighlights": ["Poisson cru", "Taro", "Coconut desserts"]
+    }
+  },
+  {
+    "slug": "namhae-south-korea",
+    "name": "Namhae, South Korea",
+    "short": "Coastal beauty with traditional Korean villages.",
+    "price": 1400,
+    "image": "/img17.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Southern island known for terraced farms and scenic coastlines.",
+      "culture": "Korean farming traditions, seafood cuisine.",
+      "topAttractions": ["German Village", "Boriam Temple", "Sawol-gil Trail"],
+      "bestTime": "Apr–June or Sept–Oct",
+      "currency": "South Korean Won (KRW)",
+      "population": "≈55k",
+      "foodHighlights": ["Grilled mackerel", "Kimchi", "Seafood pancakes"]
+    }
+  },
+  {
+    "slug": "tahiti-french-polynesia",
+    "name": "Tahiti, French Polynesia",
+    "short": "Volcanic island with black sand beaches.",
+    "price": 2900,
+    "image": "/img18.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Largest island in French Polynesia, famous for culture and natural beauty.",
+      "culture": "Polynesian dance, music, tattoo traditions.",
+      "topAttractions": ["Mount Orohena", "Papeete Market", "Venus Point"],
+      "bestTime": "May–Oct",
+      "currency": "CFP Franc (XPF)",
+      "population": "≈190k",
+      "foodHighlights": ["Poisson cru", "Breadfruit dishes", "Coconut desserts"]
+    }
+  },
+  {
+    "slug": "palau",
+    "name": "Palau",
+    "short": "Pristine island nation with marine biodiversity.",
+    "price": 3100,
+    "image": "/img19.jpg",
+    "category": "Beaches",
+    "details": {
+      "history": "Pacific island nation with WWII history and marine conservation.",
+      "culture": "Micronesian traditions, diving culture.",
+      "topAttractions": ["Jellyfish Lake", "Rock Islands", "Blue Corner dive site"],
+      "bestTime": "Nov–Apr",
+      "currency": "US Dollar (USD)",
+      "population": "≈18k",
+      "foodHighlights": ["Fresh seafood", "Taro", "Coconut-based dishes"]
+    }
+  }
+]
