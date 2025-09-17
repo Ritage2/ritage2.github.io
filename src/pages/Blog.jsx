@@ -51,6 +51,8 @@ const Reviews = () => {
     destination: "",
     rating: 0,
     review: "",
+    image: null,
+    recommendation: "",
   });
 
   const handleChange = (e) => {
@@ -61,6 +63,10 @@ const Reviews = () => {
     setFormData((prev) => ({ ...prev, rating }));
   };
 
+  const handleImage = (e) => {
+    setFormData((prev) => ({ ...prev, image: e.target.files[0] }));
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!formData.name || !formData.destination || !formData.review) return;
@@ -69,18 +75,19 @@ const Reviews = () => {
       id: reviews.length + 1,
       ...formData,
       date: new Date().toISOString().split("T")[0],
-      image: "/default-avatar.png",
+      image: formData.image ? URL.createObjectURL(formData.image) : "/default-avatar.png",
     };
 
     setReviews([newReview, ...reviews]);
-    setFormData({ name: "", destination: "", rating: 0, review: "" });
+
+    setFormData({ name: "", destination: "", rating: 0, review: "", image: null, recommendation: "" });
   };
 
   return (
     <section>
       {/* Hero Section */}
       <header className="text-center py-16 px-4 max-w-3xl mx-auto">
-        <h1 className="text-3xl md:text-5xl font-extrabold mb-8 text-center text-sky-800">
+        <h1 className="text-3xl md:text-5xl font-extrabold mb-8 text-sky-800">
           Traveler Stories
         </h1>
         <p className="text-lg text-gray-600 leading-relaxed">
@@ -142,11 +149,31 @@ const Reviews = () => {
               className="w-full border border-gray-300 rounded-xl px-4 py-3 focus:ring-2 focus:ring-sky-400 outline-none"
             />
 
+            {/* Image Upload */}
+            <input
+              type="file"
+              accept="image/*"
+              onChange={handleImage}
+              className="w-full border border-gray-300 rounded-xl px-4 py-3 focus:ring-2 focus:ring-sky-400 outline-none"
+            />
+
+            {/* Recommendation if rating <= 2 */}
+            {formData.rating > 0 && formData.rating <= 2 && (
+              <textarea
+                name="recommendation"
+                placeholder="How can we improve your experience?"
+                rows="3"
+                value={formData.recommendation}
+                onChange={handleChange}
+                className="w-full border border-gray-300 rounded-xl px-4 py-3 focus:ring-2 focus:ring-red-400 outline-none"
+              />
+            )}
+
             <button
               type="submit"
               className="bg-sky-600 text-white font-medium px-6 py-3 rounded-xl hover:bg-sky-700 transition w-full shadow-md"
             >
-               Submit Review
+              Submit Review
             </button>
           </form>
         </div>
@@ -165,12 +192,8 @@ const Reviews = () => {
                   className="w-14 h-14 rounded-full object-cover mr-4 ring-2 ring-sky-100"
                 />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">
-                    {review.name}
-                  </h3>
-                  <p className="text-sm text-sky-600 font-medium">
-                    {review.destination}
-                  </p>
+                  <h3 className="text-lg font-semibold text-gray-900">{review.name}</h3>
+                  <p className="text-sm text-sky-600 font-medium">{review.destination}</p>
                 </div>
               </div>
 
@@ -189,9 +212,14 @@ const Reviews = () => {
                 ))}
               </div>
 
-              <p className="text-gray-600 leading-relaxed flex-grow italic">
-                “{review.review}”
-              </p>
+              <p className="text-gray-600 leading-relaxed flex-grow italic">“{review.review}”</p>
+
+              {/* Show recommendation if exists */}
+              {review.recommendation && (
+                <p className="mt-2 text-sm text-red-600 italic">
+                  Suggestion: {review.recommendation}
+                </p>
+              )}
 
               <footer className="text-sm text-gray-400 mt-4">
                 <time>{review.date}</time>
@@ -203,7 +231,7 @@ const Reviews = () => {
         {/* Coming Soon Section */}
         <div className="text-center mt-16">
           <p className="text-lg font-semibold text-gray-700">
-             Blogs &  Videos are coming soon! Stay tuned for more travel inspiration.
+            Blogs & Videos are coming soon! Stay tuned for more travel inspiration.
           </p>
         </div>
       </main>

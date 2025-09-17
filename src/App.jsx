@@ -6,7 +6,7 @@ import Checkout from "./components/Checkout";
 import ErrorBoundary from "./components/ErrorBoundary";
 
 // Pages
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Welcome from "./pages/Welcome";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";

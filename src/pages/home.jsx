@@ -107,6 +107,7 @@ export default function Home() {
 >
   Learn More
 </Link>
+
     <Link
   to="/planner"
   className="bg-white text-orange-600 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-orange-100 transition transform hover:-translate-y-1"
