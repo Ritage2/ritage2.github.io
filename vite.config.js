@@ -3,9 +3,10 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
+  
   plugins: [
     react(),
     tailwindcss()
   ],
-  base: '/ritage2.github.io/',
+  base: "./",
 })
