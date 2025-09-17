@@ -43,19 +43,19 @@ export default function Welcome() {
         
         <div className="flex gap-4 mt-8 md:mt-7">
           <img
-    src="/cup.jpg"
+    src="/images/cup.jpg"
     alt="cup travel 1"
     className="w-60 h-90 object-cover  shadow-lg"
   />
 
   <img
-    src="/person.jpg"
+    src="/images/person.jpg"
     alt="person 2"
     className="w-60 h-80 object-cover  shadow-lg -mt-6"
   />
 
   <img
-    src="/window (2).jpg"
+    src="/images/window (2).jpg"
     alt="plane window "
     className="w-60 h-90 object-cover  shadow-lg"
   />
