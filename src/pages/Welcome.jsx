@@ -5,7 +5,8 @@ export default function Welcome() {
   return (
     <section
       className="relative bg-cover bg-center h-screen w-full text-white"
-      style={{ backgroundImage: "url('/wall3.jpg')" }}
+      style={{ backgroundImage: "url('/images/wall3.jpg')" }}
+      
     >
       
 
