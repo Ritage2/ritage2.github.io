@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
   className="relative bg-cover bg-center h-screen w-full"
-  style={{ backgroundImage: "url('mo11.jpg')" }}
+  style={{ backgroundImage: "url('/images/mo11.jpg')" }}
 >
   <div className="relative z-10 flex flex-col justify-center items-start h-full px-8 md:px-20 text-white max-w-3xl">
     <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">

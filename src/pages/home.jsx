@@ -28,7 +28,7 @@ export default function Home() {
       discount: "20% OFF",
       price: 899,
       duration: "7 Days / 6 Nights",
-      img: "/bali2.jpg",
+      img: "/images/bali2.jpg",
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ export default function Home() {
       discount: "Save 15%",
       price: 1299,
       duration: "5 Days / 4 Nights",
-      img: "/paris1.jpg",
+      img: "/images/paris1.jpg",
     },
     {
       id: 3,
@@ -48,7 +48,7 @@ export default function Home() {
       discount: "Spring Special -10%",
       price: 1499,
       duration: "10 Days / 9 Nights",
-      img: "/japan.jpg",
+      img: "/images/japan.jpg",
     },
   ];
 
