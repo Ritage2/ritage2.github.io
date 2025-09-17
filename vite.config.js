@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss()
-  ]
+  ],
+  base: '/ritage2.github.io/',
 })
